@@ -1,0 +1,11 @@
+/*.jumbotron {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.jumbotron-img {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
