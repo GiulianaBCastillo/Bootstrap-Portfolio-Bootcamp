@@ -1,16 +1,35 @@
-.display-4 {
+.jumbotron {
+    display: flex;
+    background-color: thistle;
+    padding: 1rem 1rem;
+}
+.jumbotron-img {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    border-radius: 50%;
 
+}
+.display-4 {
 color:black;
 font-family:Verdana, Geneva, Tahoma, sans-serif;
 font-size: 80px;
 }
 
 .lead {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color:black;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
+    font-size: 24px;
 }
 
+.sub-heading {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
 .navbar-nav {
     color:black;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -28,4 +47,21 @@ font-size: 80px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 24px;
     font-style: bold;
+}
+
+/* contact section */
+.form-group {
+    color:black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+
+.card-title {
+    color:black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+}
+
+.card-body {
+    background-color: lavender;
 }
