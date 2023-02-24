@@ -48,9 +48,23 @@ font-size: 80px;
     font-size: 24px;
     font-style: bold;
 }
+/* card 1 Horiseons */
+.card {
+    display: flex;
+    flex-direction: row;
+}
 /*works section */
 .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: lavender;
+}
+/* about section */
+.card-text {
+    color:black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
 }
 /* contact section */
 .form-group {
@@ -66,6 +80,7 @@ font-size: 80px;
 }
 
 .card-body {
+    
     background-color: lavender;
 }
 
